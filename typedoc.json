@@ -1,0 +1,14 @@
+{
+  "entryPoints": [
+    "./src/ejercicio-1/Card.ts",
+    "./src/ejercicio-1/CardCollection.ts",
+    "./src/ejercicio-1/main.ts",
+    "./src/ejercicio-1/helpers.ts",
+    "./src/ejercicio-1/AddCard.ts",
+    "./src/ejercicio-1/DeleteCard.ts",
+    "./src/ejercicio-1/ListCards.ts",
+    "./src/ejercicio-1/ModifyCard.ts",
+    "./src/ejercicio-1/ShowCard.ts"
+  ],
+  "out": "./docs"
+}

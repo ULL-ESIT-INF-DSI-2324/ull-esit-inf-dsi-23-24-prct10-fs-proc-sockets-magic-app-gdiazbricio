@@ -119,6 +119,16 @@ describe('Operations tests', () => {
               oddity: Oddities.Common,
               rules: 'Test rules',
               marketValue: 10
+            }, 
+            {
+              id: 2,
+              name: "cosota",
+              mana: 230,
+              color: 3,
+              typeLine: 0,
+              oddity: 0,
+              rules: "estoylootro",
+              marketValue: 10
             }]);
             done();
           });

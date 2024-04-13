@@ -38,7 +38,7 @@ export class ModifyCard {
           else
             callback(
               undefined,
-              `The card ${toModify.id} has been modified in the collection of ${this.Cards.getUser()}`,
+              `La carta: ${toModify.id} ha sido modificada en la colección de ${this.Cards.getUser()}`,
             );
         },
       );

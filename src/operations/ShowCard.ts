@@ -25,7 +25,7 @@ export class ShowCard {
     if (found) {
       callback(undefined, found);
     } else {
-      callback("The card to show was not found", undefined);
+      callback("La carta no fue encontrada", undefined);
     }
   }
 }

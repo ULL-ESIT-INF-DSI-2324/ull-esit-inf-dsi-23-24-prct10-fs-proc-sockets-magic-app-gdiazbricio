@@ -18,7 +18,7 @@ export class ListCards {
     callback: (error: string | undefined, data: Card[] | undefined) => void,
   ): void {
     if (this.Cards.collection.length === 0)
-      callback("No hay elementos en la colección", undefined);
+      callback("No hay cartas en la colección", undefined);
     else {
       const cardList: Card[] = [];
       this.Cards.collection.forEach((card) => {

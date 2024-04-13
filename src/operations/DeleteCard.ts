@@ -27,9 +27,9 @@ export class DeleteCard {
         else
           callback(
             undefined,
-            `The card ${toDeleteId} has been deleted from the collection of ${this.Cards.getUser()}`,
+            `La carta ${toDeleteId} ha sido eliminada de la colección de ${this.Cards.getUser()}`,
           );
       });
-    } else callback("The card to delete was not found", undefined);
+    } else callback("La carta no fue encontrada", undefined);
   }
 }

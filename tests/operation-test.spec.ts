@@ -175,7 +175,7 @@ describe('Operations tests', () => {
         const cardIdToDelete = 1;
         deleteCard.delete(cardIdToDelete, (error, data) => {
           expect(error).to.be.undefined;
-          expect(data).to.equal(`The card ${cardIdToDelete} has been deleted from the collection of ${myCollection.getUser()}`);
+          expect(data).to.equal(`La carta ${cardIdToDelete} ha sido eliminada de la colección de ${myCollection.getUser()}`);
           done();
         });
       }
@@ -189,7 +189,7 @@ describe('Operations tests', () => {
     const cardIdToDelete = 999;
 
     deleteCard.delete(cardIdToDelete, (error, data) => {
-      expect(error).to.equal('The card to delete was not found');
+      expect(error).to.equal('La carta no fue encontrada');
       expect(data).to.be.undefined;
       done();
     });

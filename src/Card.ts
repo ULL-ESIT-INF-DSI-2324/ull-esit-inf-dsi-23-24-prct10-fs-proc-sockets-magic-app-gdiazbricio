@@ -8,7 +8,7 @@ export enum Colors {
   Red,
   Green,
   Acolor,
-  Multicolor
+  Multicolor,
 }
 
 /**
@@ -21,7 +21,7 @@ export const Correspondencies = [
   "ff00000",
   "00ff00",
   "ffffff",
-  "ffffff"
+  "ffffff",
 ];
 
 /**
@@ -34,7 +34,7 @@ export enum TypeLines {
   Conjure,
   Instant,
   Artefact,
-  Planeswalker
+  Planeswalker,
 }
 
 /**
@@ -43,22 +43,22 @@ export enum TypeLines {
 export enum Oddities {
   Common,
   Unfrecuent,
-  Mithic
+  Mithic,
 }
 
 /**
  * Interface representing a card.
  */
 export interface Card {
-  id: number,
-  name: string,
-  mana: number,
-  color: Colors,
-  typeLine: TypeLines,
-  oddity: Oddities,
-  rules: string,
-  strength?: number,
-  endurance?: number,
-  loyalty?: number,
-  marketValue: number
+  id: number;
+  name: string;
+  mana: number;
+  color: Colors;
+  typeLine: TypeLines;
+  oddity: Oddities;
+  rules: string;
+  strength?: number;
+  endurance?: number;
+  loyalty?: number;
+  marketValue: number;
 }

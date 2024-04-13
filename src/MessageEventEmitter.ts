@@ -1,21 +1,18 @@
-import {EventEmitter} from "events";
-import net from "net"
+import { EventEmitter } from "events";
 
-export class MessageEventEmiter extends EventEmitter {
-  constructor() {
+export class MessageEventEmitter extends EventEmitter {
+  constructor(private connection: EventEmitter) {
     super();
-    net.createServer((connection) => {
-      connection.on("data", (dataChunk) => {
-        let fullData = "";
-        fullData += dataChunk;
-        let finish = fullData.indexOf("\n");
-        while (finish !== -1) {
-          const message = fullData.substring(0, finish);
-          fullData = fullData.substring(finish + 1);
-          this.emit("message", JSON.parse(message.toString()), connection);
-          finish = fullData.indexOf("\n");
-        }
-      });
-    }).listen(60300);
+    let fullData = "";
+    connection.on("data", (dataChunk) => {
+      fullData += dataChunk;
+      let finish = fullData.indexOf("\n");
+      while (finish !== -1) {
+        const message = fullData.substring(0, finish);
+        fullData = fullData.substring(finish + 1);
+        this.emit("message", JSON.parse(message.toString()));
+        finish = fullData.indexOf("\n");
+      }
+    });
   }
 }

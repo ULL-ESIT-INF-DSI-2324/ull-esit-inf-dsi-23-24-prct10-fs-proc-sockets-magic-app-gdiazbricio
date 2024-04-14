@@ -1,14 +1,16 @@
 {
   "entryPoints": [
-    "./src/ejercicio-1/Card.ts",
-    "./src/ejercicio-1/CardCollection.ts",
-    "./src/ejercicio-1/main.ts",
-    "./src/ejercicio-1/helpers.ts",
-    "./src/ejercicio-1/AddCard.ts",
-    "./src/ejercicio-1/DeleteCard.ts",
-    "./src/ejercicio-1/ListCards.ts",
-    "./src/ejercicio-1/ModifyCard.ts",
-    "./src/ejercicio-1/ShowCard.ts"
+    "./src/Card.ts",
+    "./src/CardCollection.ts",
+    "./src/client.ts",
+    "./src/server.ts",
+    "./src/helpers.ts",
+    "./src/operations/AddCard.ts",
+    "./src/operations/DeleteCard.ts",
+    "./src/operations/ListCards.ts",
+    "./src/operations/ModifyCard.ts",
+    "./src/operations/ShowCard.ts",
+    "./src/MessageEventEmitter.ts"
   ],
   "out": "./docs"
 }

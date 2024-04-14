@@ -15,6 +15,7 @@ export class ModifyCard {
   /**
    * Modifies a card in the collection.
    * @param toModify The card to be modified.
+   * @param callback A function to be called when finished.
    */
   modify(
     toModify: Card,

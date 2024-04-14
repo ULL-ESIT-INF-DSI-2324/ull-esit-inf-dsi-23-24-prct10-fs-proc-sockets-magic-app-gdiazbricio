@@ -1,5 +1,4 @@
 import { Card } from "./Card.js";
-// import { writeFileSync, mkdirSync, existsSync } from "fs"
 import { access, readFile, constants, readdir } from "node:fs";
 
 /**
@@ -19,6 +18,10 @@ export class CardCollection {
     this.collection = [];
   }
 
+  /**
+   * Read a user's collection of cards.
+   * @param callback A function to be called when finishede.
+   */
   read(
     callback: (error: string | undefined, data: string | undefined) => void,
   ): void {

@@ -15,6 +15,7 @@ export class AddCard {
   /**
    * Adds a new card to the collection.
    * @param newCard The card to be added.
+   * @param callback A function to be called when finished.
    */
   add(
     newCard: Card,

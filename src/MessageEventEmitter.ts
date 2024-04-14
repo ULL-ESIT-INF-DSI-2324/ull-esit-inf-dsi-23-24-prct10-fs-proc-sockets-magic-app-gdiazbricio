@@ -1,6 +1,13 @@
 import { EventEmitter } from "events";
 
+/**
+ * This class is responsible for emitting event message when data is done reading.
+ */
 export class MessageEventEmitter extends EventEmitter {
+  /**
+   * The constructor check if the message is complete and emits "message" event.
+   * @param connection The socket connection.
+   */
   constructor(private connection: EventEmitter) {
     super();
     let fullData = "";

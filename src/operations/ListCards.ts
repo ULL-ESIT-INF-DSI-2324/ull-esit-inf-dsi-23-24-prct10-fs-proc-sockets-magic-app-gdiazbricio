@@ -13,6 +13,7 @@ export class ListCards {
 
   /**
    * Lists all the cards in the collection with their details.
+   * @param callback A function to be called when finished.
    */
   list(
     callback: (error: string | undefined, data: Card[] | undefined) => void,
@@ -20,11 +21,7 @@ export class ListCards {
     if (this.Cards.collection.length === 0)
       callback("No hay cartas en la colección", undefined);
     else {
-      const cardList: Card[] = [];
-      this.Cards.collection.forEach((card) => {
-        cardList.push(card);
-      });
-      callback(undefined, cardList);
+      callback(undefined, this.Cards.collection);
     }
   }
 }

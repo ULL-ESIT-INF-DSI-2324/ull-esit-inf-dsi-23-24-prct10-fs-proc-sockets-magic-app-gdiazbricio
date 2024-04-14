@@ -8,6 +8,9 @@ import { DeleteCard } from "./operations/DeleteCard.js";
 import { ListCards } from "./operations/ListCards.js";
 import net from "net";
 
+/**
+ * Main server functionality
+ */
 // Creamos el servidor.
 net
   .createServer((connection) => {

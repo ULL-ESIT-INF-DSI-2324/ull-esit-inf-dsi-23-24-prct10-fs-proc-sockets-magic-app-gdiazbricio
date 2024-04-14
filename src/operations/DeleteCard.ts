@@ -13,6 +13,7 @@ export class DeleteCard {
   /**
    * Deletes a card from the collection based on its id.
    * @param toDeleteId The id of the card to be deleted.
+   * @param callback A function to be called when finished.
    */
   delete(
     toDeleteId: number,

@@ -1,12 +1,12 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/7bX30zK4)
 
-[![Tests](https://github.com/ULL-ESIT-INF-DSI-2324/github-actions-sonar-cloud/actions/workflows/node.js.yml/badge.svg)](https://github.com/ULL-ESIT-INF-DSI-2324/github-actions-sonar-cloud/actions/workflows/node.js.yml)
+[![Tests](https://github.com/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct10-fs-proc-sockets-magic-app-gdiazbricio/actions/workflows/node.js.yml/badge.svg)](https://github.com/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct10-fs-proc-sockets-magic-app-gdiazbricio/actions/workflows/node.js.yml)
 
-[![Coverage Status](https://coveralls.io/repos/github/ULL-ESIT-INF-DSI-2324/github-actions-sonar-cloud/badge.svg?branch=main)](https://coveralls.io/github/ULL-ESIT-INF-DSI-2324/github-actions-sonar-cloud?branch=main)
+[![Coverage Status](https://coveralls.io/repos/github/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct10-fs-proc-sockets-magic-app-gdiazbricio/badge.svg?branch=main)](https://coveralls.io/github/ULL-ESIT-INF-DSI-2324/ull-esit-inf-dsi-23-24-prct10-fs-proc-sockets-magic-app-gdiazbricio?branch=main)
 
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=gdiazbricio_p6-tercera-modi&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=gdiazbricio_p6-tercera-modi)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=ULL-ESIT-INF-DSI-2324_ull-esit-inf-dsi-23-24-prct10-fs-proc-sockets-magic-app-gdiazbricio&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=ULL-ESIT-INF-DSI-2324_ull-esit-inf-dsi-23-24-prct10-fs-proc-sockets-magic-app-gdiazbricio)
 
-### INFORME: https://ull-esit-inf-dsi-2324.github.io/ull-esit-inf-dsi-23-24-prct09-filesystem-magic-app-gdiazbricio/
+### INFORME: https://ull-esit-inf-dsi-2324.github.io/ull-esit-inf-dsi-23-24-prct10-fs-proc-sockets-magic-app-gdiazbricio/
 # PRÁCTICA 10: DISEÑO DE UNA APLICACIÓN CLIENTE SERVIDOR PARA LA GESTIÓN DE CARTAS MAGIC.
 ### Guillermo Díaz Bricio - Desarrollo de Sistemas Informáticos, 3º Grado en Ingeniería Informática
 ## Contenidos:
